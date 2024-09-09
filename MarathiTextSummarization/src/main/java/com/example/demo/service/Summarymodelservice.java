@@ -12,7 +12,7 @@ import java.util.Map;
 public class Summarymodelservice {
 
     private static final String API_URL = "https://api-inference.huggingface.co/models/kishanvvvv/marathi_summary1";
-    private static final String TOKEN = "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";
+    private static final String TOKEN = "your-model-token-key";
 
     public String giveSummary(String inputText) {
         // Construct payload using a Map
